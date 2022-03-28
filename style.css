@@ -1,0 +1,133 @@
+html, body {width:100%; overflow-x:hidden; scroll-behavior: smooth;}
+.head {
+    width: 1200px;
+    height: 80px;
+    margin: 0 auto;
+}
+.main {
+
+    margin: 0 auto;
+    width: 1200px;
+    display: grid;
+    height: auto;
+
+}
+.bg {
+    padding-bottom: 40px;
+    max-width: 90%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    height: auto;
+    display: flex;
+}
+h1, p, h2, h3 {
+    font-family: 'Century Gothic';
+}
+.bg2 {
+    max-width: 90%;
+    min-width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    background-color: #eeeff1;
+}
+.info {
+    margin-top: 110px;
+    margin-left: 50px;
+    width: 400px;
+    height: 200px;
+    background-color: black;
+    background-image: url("info1.jpg"); 
+    background-size: 100%;
+}
+.infot {
+    width: 500px;
+    height: 300px ;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.info2 {
+    margin-top: 25px;
+    margin-left: 50px;
+    width: 400px;
+    height: 300px;
+    background-color: black;
+    background-image: url("info2.jpg");
+    background-size: 100%;
+}
+.info3 {
+    margin-top: 110px;
+    margin-left: 50px;
+    width: 400px;
+    height: 200px;
+    background-color: black;
+    background-image: url("info3.jpg"); 
+    background-size: 100%;
+}
+.info4 {
+    margin-top: 25px;
+    margin-left: 50px;
+    width: 400px;
+    height: 300px;
+    background-color: black;
+    background-image: url("info4.jpg");
+    background-size: 100%;
+}
+.info5 {
+    margin-top: 110px;
+    margin-left: 50px;
+    width: 400px;
+    height: 200px;
+    background-color: black;
+    background-image: url("info5.jpg"); 
+    background-size: 100%;
+}
+.middle {
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    margin-left: 119px;
+}
+.btn{
+    position: relative;
+    display: block;
+    color: black;
+    font-size: 14px;
+    font-family: "montserrat";
+    text-decoration: none;
+    margin: 30px 0;
+    border: 2px solid black;
+    padding: 14px 60px;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 1s all ease;
+
+}
+
+.btn::before{
+
+    background: black;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    transition: all 0.6s ease;
+}
+
+.btn1::before{
+    width: 0%;
+    height: 100%;
+}
+
+.btn1:hover::before{
+    width: 100%;
+}
+a:hover {
+    color: white;
+}
+
